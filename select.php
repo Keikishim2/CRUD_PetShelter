@@ -13,8 +13,7 @@
      $query = "SELECT * FROM tbl_crud WHERE id = '".$_POST["pets_id"]."'";  
      $result = mysqli_query($connect, $query);  
      $output .= '  
-     <div class="table-responsive">  
-          <table class="table-borderless">';  
+          <table class="table">';  
      while($row = mysqli_fetch_array($result))  
      {  
           $output .= '  

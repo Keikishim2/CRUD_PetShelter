@@ -71,6 +71,10 @@ h3 {
   font-size: 30px;
   font-family: 'Kanit', sans-serif;
 }
+#pets_detail {
+  width: 600px;
+  height: 400px;
+}
 #pets_table {
   width: 1000px;
   padding: 20px;
@@ -90,9 +94,10 @@ table {
 th,
 td {
   padding: 20px 10px 20px 0;
-  width: 900px;
+  width: 400px;
   text-align: center;
   font-weight: bolder;
+  color: black;
 }
 .table-borderless {
   margin: 0 auto;
@@ -104,6 +109,7 @@ tr {
 }
 .view_data,
 .edit_data {
+  width: 60px;
   border: none;
   background-color: white;
   color: #BDBDBD;
@@ -135,6 +141,7 @@ tr {
 }
 .modal-body {
   height: 250px;
+  width: 600px;
 }
 .fa-clipboard-list,
 .fa-edit {
