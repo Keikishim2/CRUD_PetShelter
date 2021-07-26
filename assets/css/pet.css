@@ -1,0 +1,217 @@
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKZ-Go6G5tXcoaS.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Do Hyeon';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dohyeon/v11/TwMN-I8CRRU2zM86HFE3.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  background: #E5E5E5;
+}
+li,
+a,
+button {
+  font-weight: normal;
+  font-size: 13px;
+  color: darkgray;
+  text-decoration: none;
+  font-family: 'Kanit', Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  color: black;
+  float: left;
+  margin-top: 18px;
+  margin-left: 20px;
+  margin-right: 250px;
+  font-weight: normal;
+  font-family: 'Do Hyeon', sans-serif;
+}
+header {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10%;
+}
+p {
+  font-size: 14px;
+  color: darkgray;
+  line-height: 1.4 !important;
+  margin-top: -1vh;
+  font-family: 'Kanit', sans-serif !important;
+}
+h1,
+p {
+  line-height: 0.9;
+  font-family: 'Do Hyeon', sans-serif;
+  margin-top: 10px;
+}
+img {
+  position: absolute;
+  width: 540px;
+  height: 240px;
+  left: 290px;
+  top: -40px;
+}
+h3 {
+  text-align: center;
+  justify-content: center;
+  top: 30vh;
+  position: relative;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'Kanit', sans-serif;
+}
+#pets_table {
+  width: 1000px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 300px auto;
+  justify-content: center;
+}
+th {
+  display: none;
+}
+table {
+  border-collapse: separate !important;
+  border-radius: 5px;
+  background: snow;
+}
+th,
+td {
+  padding: 20px 10px 20px 0;
+  width: 900px;
+  text-align: center;
+  font-weight: bolder;
+}
+.table-borderless {
+  margin: 0 auto;
+  width: 900px;
+}
+tr {
+  border-radius: 5px;
+  box-shadow: 2px 4px 2px #BDBDBD;
+}
+.view_data,
+.edit_data {
+  border: none;
+  background-color: white;
+  color: #BDBDBD;
+}
+.like,
+.fa-heart {
+  background: #F5C388;
+  color: white;
+  border-radius: 7px;
+}
+.fa-home {
+  color: white;
+}
+.adopt_pet,
+.like {
+  width: 80px !important;
+}
+.adopt_pet {
+  background: #FF5C4C;
+  color: white;
+  border-radius: 7px;
+}
+#insert {
+  background: #FF5C4C;
+  float: right;
+  color: white;
+  width: 140px;
+  padding-left: 23px;
+}
+.modal-body {
+  height: 250px;
+}
+.fa-clipboard-list,
+.fa-edit {
+  color: #BDBDBD;
+}
+.fa-save {
+  color: white;
+  transform: translate(23vw, 7px);
+}
+footer {
+  top: 980px;
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  display: flex;
+  left: 38vw;
+  font-family: 'Kanit', 'sans-serif';
+  color: #BDBDBD;
+}
+.v88 {
+  color: #FF5C4C;
+}
+nav {
+  background: snow;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  padding: 5px;
+  width: 900px;
+  border-radius: 5px;
+}
+.navlinks {
+  margin: 15px 0 0 0;
+  text-align: center;
+  width: 900px;
+  justify-content: center;
+  list-style: none;
+}
+.navlinks li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-family: 'Kanit', sans-serif;
+}
+.navlinks li a {
+  transition: all 0.3s ease 0s;
+}
+a.active {
+  color: #FF5C4C;
+}
+button {
+  padding: 7px;
+  background-color: #FF5C4C;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+  width: 160px !important;
+}
+button:hover {
+  background-color: red;
+}
+.shop {
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  justify-content: left;
+  align-self: inherit;
+  text-align: left;
+  align-items: flex-start;
+  top: 150px;
+  left: 540px;
+  font-size: 20px;
+}
+.shop .adopt {
+  color: #FF5C4C;
+}
+.shop .shop_span {
+  color: darkgray;
+}
